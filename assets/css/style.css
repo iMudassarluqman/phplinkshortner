@@ -1,0 +1,20 @@
+* {
+  margin-bottom: 0 !important;
+  font-family: sans-serif;
+}
+nav {
+  background-color: #161616;
+  color: white;
+}
+.hero-img {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+}
+
+.footer {
+  background-color: #161616;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  position: absolute !important;
+  bottom: 0;
+}
