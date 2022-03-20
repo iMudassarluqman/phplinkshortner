@@ -7,20 +7,7 @@
         <div class="collapse navbar-collapse container" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
 
-                <?php if ($_SERVER['REQUEST_URI'] == '/linkcut/shorten.php'): ?>
-                <?php else: ?>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php $_SERVER['REQUEST_URI'].'/linkcut/shorten.php' ?>">Shorten your link</a>
-                    </li>
-                <?php endif?>
-
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
-                </li> -->
-
+               
 
             </ul>
 
